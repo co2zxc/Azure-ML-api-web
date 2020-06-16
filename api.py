@@ -31,8 +31,8 @@ def predict():
         body = str.encode(json.dumps(input3))
         print(body)
        
-        url = 'https://ussouthcentral.services.azureml.net/workspaces/dc1fe6a44b314f76996446b0772cf4f6/services/e1fd759ec9b94a0eb8b88ba58e77fb05/execute?api-version=2.0&format=swagger'
-        api_key = 'pYOGFVHRRdk2m9E1Sxo7ljE769Yvs+YkMrCYOkeggPc+wrMxDLzg5Sxg4x7S5qW6BKotnTrW0e2gqvckaY5PwQ=='
+        url = '依據你的API填寫'
+        api_key = '依據你的API填寫'
         headers = {'Accept':'application/json','Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
 
         req = urllib.Request(url, body, headers) 
