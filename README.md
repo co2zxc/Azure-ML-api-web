@@ -1,6 +1,6 @@
 ﻿# Azure-ML-api-web
  
- ## 修改apu.py檔案，依據你的API填寫
+ ## 修改ap.py檔案，依據你的API填寫
 
 ```bash
 git clone https://github.com/co2zxc/Azure-ML-api-web.git
